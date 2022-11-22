@@ -192,7 +192,7 @@ main section img {
     margin-top: 50px;
     text-align: center;
     grid-column: 1/6;
-    grid-row: 1;
+    grid-row: 1/2;
     } 
 
 .rivers-p1 {
@@ -345,7 +345,7 @@ footer a:hover{
     }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid {
         display: block;
         height: auto;
     }
